@@ -1,0 +1,96 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+#container{
+	width: 100%;
+	height: 800px;
+	margin: 0 auto;
+	
+}
+#divhead{
+	width: 100%;
+	height: 80px;
+	/*background: black;*/	
+	padding-left: 20px;
+}
+#divhead a{
+	text-decoration: none;
+	color:gray;
+}
+#divhead a:hover {
+color:red;
+}
+#tou{
+	width: 1347px;
+	height: 20px;
+	background: rgb(241,241,241);
+	margin-left: -18px;
+}
+#search{
+	margin-left: 200px;
+	height: 50px;
+	width: 1000px;
+	text-align: center;
+	/*background: cornflowerblue;*/
+}
+#center{
+	margin-left: 150px;
+	width: 1000px;
+	height: 330px;
+	float:left;
+}
+#c_left{
+	width:20%;
+	height:330px;
+	float:left;
+}
+#c_left td {
+	font-size: 16px;
+	font-family: "微软雅黑";
+	line-height: 30px;
+}
+#c_left a {
+	color: black;	
+}
+#c_right{
+	width:80%;
+	padding-top: 70px;
+	float: left;
+}
+#c_right ul a{
+	color: black;
+	font-size: 15px;			
+}
+.listtitle{
+	font-size:17px;
+	font-weight:bold;
+	text-align: left;
+}
+
+.listtd{
+    padding:5px 0px 5px 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+	font-size: 15px;
+}
+#divpagecontent{
+	width:900px;
+	margin-top:10px;
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+}
+#userinfo{
+	   width: 700px;
+	   height: 400px;
+	   padding-top: 120px;
+	   background: url(../img/xinxi.jpg);
+}
+#userinfo p{
+	margin-left: 220px;
+	font-size:24px;
+	text-align: left;
+}
